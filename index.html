@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+
+<!-- end  -->
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Tokopedia</title>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+
+    <div class="header">
+        <!-- item-header-1: This class is used to style the header section with flexbox for alignment and spacing -->
+        <div class="item-header-1 d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center ">
+                <img class="me-2" src="assets/img/1.png" alt="">
+                <span>Download Tokopedia App</span>
+            </div>
+            <div class="d-flex">
+                <span class="me-4">Tentang Tokopedia</span>
+                <span class="me-4">Mitra Tokopedia</span>
+                <span class="me-4">Mulai Berjualan</span>
+                <span class="me-4">Promo</span>
+                <span class="me-4">Tokopedia Care</span>
+            </div>
+        </div>
+
+        <div class="item-header-2 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-center">
+                <img class="img-tokopedia" src="assets/img/2.png" alt="">
+                <span class="mx-2 text-kategori">Kategori</span>
+                <div class="wrap-search">
+                    <input type="text" class="form-control" placeholder="Cari di Tokopedia" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                    <div class="wrap-icon-search">
+                        <img class="img-search" src="assets/img/3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="wrap-img-shop mx-3" onclick="showMenu()" onmouseover="showMenu()" onmouseout="hideMenu()">
+                    <img class="img-shop" src="assets/img/4.png" alt="">
+                </div>
+
+                <span class="me-3 line">|</span>
+
+                <div class="d-flex">
+                    <button class="btn font-weight-bold me-3">Masuk</button>
+                    <button class="btn font-weight-bold text-white">Daftar</button>
+                </div>
+
+            </div>
+            <div class="text-under-search d-flex mt-2">
+                <span class="me-3">Jersey Sepeda</span>
+                <span class="me-3">Kopi Robusta</span>
+                <span class="me-3">Baju Kasual</span>
+                <span class="me-3">Sepatu Bola</span>
+                <span class="me-3">Makanan Bandung</span>
+                <span class="me-3">Sarung Tangan</span>
+            </div>
+        </div>
+
+        <div class="menu-bar flex-column justify-content-between align-items-center" id="menuBar">
+            <img class="img-cart" src="assets/img/5.png" alt="">
+            <h4 class="mt-2 font-weight-bold">Wah keranjang belanjamu kosong</h4>
+            <p class="text-center">Yuk, isi dengan barang-barang impianmu!</p>
+            <button class="btn btn-mulaibelanja">Mulai Belanja</button>
+        </div>
+
+    </div>
+
+    <!-- Modal Pencarian/Search-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-head">
+                <div class="d-flex align-items-center">
+                    <h4 class="fw-bold title me-3">Terakhir dicari</h4>
+                    <span class="fw-bold subtitle" style="font-size: medium ; color: red ">Hapus Semua</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center lastsearch-item">
+                    <span class="" style="font-size: 14px;"><img class="img-lastsearch me-2"
+                            src="assets/img/lastsearch.png" style="height: 25px;"> Emergency Light</span>
+                    <img src="assets/img/claersearch.png" alt="clearsearch" style="height: 25px;">
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center lastsearch-item">
+                    <span class="" style="font-size: 14px;"><img class="img-lastsearch me-2"
+                            src="assets/img/lastsearch.png" style="height: 25px;"> Kopi Robusta</span>
+                    <img src="assets/img/claersearch.png" alt="clearsearch" style="height: 25px;">
+
+                </div>
+
+                <h4 class="fw-bold title me-3 mt-4">Paling populer</h4>
+
+                <div class="d-flex align-items-center">
+
+                    <button class="btn btn-popularitem font-weight-bold me-3">kopi</button>
+                    <button class="btn btn-popularitem font-weight-bold me-3">arabika</button>
+                    <button class="btn btn-popularitem font-weight-bold me-3">mocca</button>
+
+                </div>
+
+
+                <div class="d-flex flex-wrap">
+                    <button class="btn btn-tipstrick me-2 mt-4 text-start">
+                        <div class="d-flex justify-content-between align-items-center w-100 mt-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img class="img-tips" src="assets/img/tips.png" style="height: 24px;" alt="tips">
+                                <span class="ms-2">Tips & Trik Pencarian</span>
+                            </div>
+                            <span class="ms-auto fw-bold" style="color: #03ac0e ;">Pelajari</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/js.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
