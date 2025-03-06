@@ -12,3 +12,8 @@ function showMenu() {
 
   overlay.classList.toggle("overlayStyle"); // Add or remove the overlay
 }
+
+function showCategory() {
+  var category = document.getElementById("category");
+  category.classList.toggle("active");
+}
