@@ -1,6 +1,6 @@
 .body {
     /* height: 100vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -350,6 +350,108 @@
     background-color: gainsboro;
     cursor: pointer;
 }
+
+/* Carousel Style` */
+
+.carousel {
+    position: relative;
+    top: 136px;
+}
+
+.carousel-inner {
+    width: 95%;
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+    margin-left: 5%;
+    justify-content: left;
+}
+
+.carousel-indicators button {
+    width: 12px !important;  /* Set equal width and height */
+    height: 12px !important;
+    border-radius: 50% !important;  /* Makes it a full circle */
+    background-color: #fff; /* Change if needed */
+    border: none; /* Remove any border */
+    opacity: 0.5; /* Slight transparency */
+}
+
+/* Section Kategori Pilihan */
+
+.kategori-pilihan {
+    position: relative;
+    top: 160px;
+    margin: 8px 32px;
+    box-shadow: rgba(49,53,59,0.12) 0px 1px 6px 0px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.carousel-kategoripilihan {
+    position: relative;
+    top: 0;
+}
+
+.card-category {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.kategori-pilihan img {
+    /* width: 80%; */
+}
+
+.kategori-pilihan h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategori-pilihan h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kategori-pilihan h3 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.item-topuptagihan {
+    padding: 10px 0px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.item-topuptagihan:hover {
+    border-bottom: 2px solid #03ac0e;
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.carousel-kategoripilihan .carousel-inner {
+    width: 100%;
+}
+
+.menu-scroll {
+    overflow-x: auto;  /* Ensure scrolling works */
+    white-space: nowrap;  /* Prevent items from wrapping */
+    display: flex;  /* Ensure horizontal flex container */
+    flex-wrap: nowrap;  /* Prevent wrapping */
+    width: 100%;  /* Ensure it spans the full width */
+}
+
+.menu-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.item-scroll {
+    border-radius: 14px;
+    flex-shrink: 0;  /* Prevent shrinking so items stay in a row */
+}
+
+
 
 
 
