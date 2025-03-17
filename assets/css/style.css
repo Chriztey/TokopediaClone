@@ -451,6 +451,244 @@
     flex-shrink: 0;  /* Prevent shrinking so items stay in a row */
 }
 
+/* Welcome Banner */
+
+.welcome-banner {
+    padding: 8px 32px;
+    position: relative;
+    top: 180px;
+    width: 100%;
+
+
+}
+
+/* Berdasarkan Pencarian Section */
+.berdasarkan-pencarian {
+    padding: 8px 32px;
+    position: relative;
+    top: 180px;
+}
+
+
+.berdasarkan-pencarian span {
+    font-size: 15px;
+}
+
+.last-search {
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(49,53,59,0.12) 0px 1px 6px 0px;
+}
+
+.berdasarkan-pencarian h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Wrap Affix */
+
+.wrap-affix {
+    position: relative;
+    top: 190px;
+    padding: 8px 32px;
+}
+
+.bg-affix1 {
+    background-color: rgb(251, 187, 49);
+    background-color: rgb(241, 160, 131);
+    background: linear-gradient(
+        90deg,
+        rgb(254, 153, 12) 0%,
+        rgb(252, 208, 98) 100%
+    );
+}
+
+.bg-affix2 {
+    background-color: rgb(98, 0, 73);
+    background-color: rgb(57,0,98);
+    background: linear-gradient(
+        90deg,
+        rgb(49, 97, 55) 0%,
+        rgb(48, 223, 109) 100%
+    );
+}
+
+.bg-affix3 {
+    background-color: rgb(98, 0, 73);
+    background-color: rgb(57,0,98);
+    background: linear-gradient(
+        90deg,
+        rgb(114, 3, 88) 0%,
+        rgba(158, 82, 150, 1) 100%
+    );
+}
+
+.bg-affix4 {
+    background-color: rgb(98, 0, 73);
+    background-color: rgb(57,0,98);
+    background: linear-gradient(
+        90deg,
+        rgb(1, 74, 156) 0%,
+        rgb(29, 173, 209) 100%
+    );
+}
+
+.box-affix {
+    display: inline-block;
+    width: 216px;
+    height: 64px;
+    padding: 6px 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.line1 {
+    background-color: #ffffff;
+    height: 4px;
+    width: 40px;
+}
+
+.card-item {
+    box-shadow: rgba(49,53,59,0.12) 0px 1px 6px 0px;
+    border-radius: 12px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.affix {
+    width: 100%;
+    background-color: white;
+    left: 0;
+    height: 76px;
+}
+
+.affix h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-item-test {
+    padding: 8px 32px;
+
+}
+
+.btn-green {
+    width: 25%;
+    color: #03ac0e;
+    border: 1px solid #03ac0e;
+    background-color: transparent;
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-green:hover {
+    color: #03ac0e;
+    border: 1px solid #929292;
+}
+
+/* Category Bottom */
+
+.category-bottom{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.head-category-bottom {
+    width: 100%;
+    /* overflow-x: scroll; */
+    
+    top: 120px;
+    z-index: 99999;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #ffffff;
+}
+
+.head-category-bottom span {
+    padding: 10px 30px;
+    border-bottom: 2px solid transparent;
+    color: #969696;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.head-category-bottom span:hover {
+    padding: 10px 30px;
+    color: #03ac0e;
+    border-bottom: 2px solid #03ac0e;
+    cursor: pointer;
+}
+
+.category-bottom-item {
+    position: relative;
+    padding: 8px;
+}
+
+.category-bottom-item h4 {
+    font-size: 14px;
+}
+
+.footer {
+    position: relative;
+    padding: 6px 
+    
+}
+
+.footer img {
+    width: 35%;
+}
+
+.footer h4 {
+    font-size: 16px;
+    color: rgb(255, 198, 46);
+}
+
+.footer h5 {
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.footer .btn-bukatoko {
+    margin-top: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #03ac0e;
+}
+
+.footer .link-learnmore {
+    font-size: 10px;
+    font-weight: bold;
+    color: #03ac0e;
+    text-decoration: none;    
+}
+
+.footer .link-learnmore:hover {
+    color: rgb(255, 198, 46) !important;
+    cursor: pointer;
+}
+
+.footer-header {
+    color: #03ac0e;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    margin-top: 4px;
+    font-size: small;
+}
+
+.footer-credit {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 
